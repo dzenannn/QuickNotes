@@ -1,0 +1,3 @@
+<?php
+
+$class = "font-bold p-1 bg-slate-100 rounded-md w-20 text-center";

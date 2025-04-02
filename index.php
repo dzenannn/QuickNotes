@@ -1,2 +1,3 @@
 <?php
-    echo '<p>Initial Commit</p>';
+require "./router.php";
+// require './controllers/index.php';
