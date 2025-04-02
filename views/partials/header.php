@@ -9,7 +9,6 @@
         <p class="font-normal">QuickNotes</p>
 </div>
     <div class="flex gap-4 mr-4">
-            <a href="/" class="<?= $class ?> <?= isUrl('/') ? "bg-slate-500" : "bg-slate-100 hover:bg-slate-200" ?>">Home</a>
             <a href="/notes" class="<?= $class ?> <?= isUrl('/notes') ? "bg-slate-500" : "bg-slate-100 hover:bg-slate-200" ?>">Notes</a>
     </div>
 </div>
