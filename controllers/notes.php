@@ -1,3 +1,11 @@
 <?php
+require "./functions.php";
+require "./database/Database.php";
+$config = require('./database/config.php');
 
-require './controllers/notes.view.php';
+$db = new Database($config);
+
+$notes = [];
+$notes = $db->query('select * from notes')->fetchAll();
+
+require './views/notes.view.php';

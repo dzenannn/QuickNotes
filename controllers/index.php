@@ -1,8 +1,3 @@
 <?php
-// require "./router.php";
-
-function isUrl($value) {
-    return $_SERVER['REQUEST_URI'] === $value;
-}
-
+require "./functions.php";
 require "./views/index.view.php";
