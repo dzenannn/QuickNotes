@@ -2,7 +2,7 @@
 
 function abort($code = 404) {
     http_response_code($code);
-    require "./views/404.view.php";
+    require "./views/{$code}.view.php";
     die();
 }
 
@@ -19,6 +19,7 @@ function routeToController($url, $routes) {
         require $routes[$url];
     } else {
         abort();
+        die();
     }
 }
 
