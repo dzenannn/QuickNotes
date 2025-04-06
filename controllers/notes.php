@@ -3,7 +3,6 @@ $config = require('./database/config.php');
 
 $db = new Database($config);
 
-$notes = [];
-$notes = $db->query('select * from notes')->fetchAll();
+$notes = $db->query('select * from notes where user_id = 1')->all();
 
 require './views/notes.view.php';
