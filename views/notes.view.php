@@ -8,5 +8,7 @@
             </div>
         </a>
     <?php endforeach; ?>
+
+        <p class="mt-6 ml-2"><a href="/notes/create" class="p-1 bg-slate-100 rounded-md w-20 text-center bg-slate-500">Create Note</a></p>
 </div>
 <?php require ('partials/foot.php'); ?>
