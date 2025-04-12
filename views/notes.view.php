@@ -4,7 +4,7 @@
     <?php foreach ($notes as $note) : ?>
         <a href="/note?id=<?= $note['id'] ?>">
             <div class="h-14 w-full bg-slate-100 rounded-xl text-center border-1 border-slate-600 flex items-center justify-center">
-                <?= $note['body']; ?>
+                <?= htmlspecialchars($note['body']); ?>
             </div>
         </a>
     <?php endforeach; ?>
