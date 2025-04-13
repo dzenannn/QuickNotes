@@ -15,3 +15,5 @@ function isUrl($value) {
 function authorize($condition, $status = Response::FORBIDDEN) {
     if(!$condition) abort($status);
 }
+
+# Today I was doing some exercises in PHP (local directory).
