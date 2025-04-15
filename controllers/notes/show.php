@@ -1,5 +1,5 @@
 <?php
-$config = require('./database/config.php');
+$config = require './database/config.php';
 $db = new Database($config);
 $id = $_GET['id'];
 
@@ -10,4 +10,4 @@ $note = $db->query('select * from notes where id = :id', ['id' => $id])->findOrF
 
 authorize($note['user_id'] === $currentUserId); 
  
-require './views/note.view.php';
+require './views/notes/show.view.php';

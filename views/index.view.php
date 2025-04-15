@@ -1,5 +1,5 @@
-<?php require ('partials/head.php'); ?>
+<?php require ('./views/partials/head.php'); ?>
 <p class="text-center text-2xl font-thin pt-4">Home</p>
 <p class="text-center p-12 italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quaerat provident molestias nihil et ipsam obcaecati nostrum tempora cupiditate officia, deserunt quos aut voluptatum quis. Impedit distinctio suscipit, doloribus a ea dolorem quia aliquam tempora nesciunt ipsa fuga vitae expedita possimus officia nisi ipsum quo enim doloremque praesentium dicta. Porro quisquam alias ad quaerat. Ut ea sunt quae incidunt assumenda at? Qui asperiores maxime quam pariatur! At iusto molestias quae amet, dolorem totam incidunt assumenda aut alias explicabo architecto quod ullam qui beatae commodi voluptate perferendis vel consectetur consequatur error debitis neque rem vitae? Dolorem cupiditate numquam ipsum doloremque debitis, explicabo molestias sit corporis sed, consequatur dolor nemo repellendus repudiandae.</p>
 <p class="text-center">~ Dženan Mecinović &copy;</p>
-<?php require ('partials/foot.php'); ?>
+<?php require ('./views/partials/foot.php'); ?>

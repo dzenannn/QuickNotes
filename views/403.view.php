@@ -1,3 +1,3 @@
-<?php require ('partials/head.php'); ?>
+<?php require ('./views/partials/head.php'); ?>
    <?= '<h1 class="text-black-800 text-2xl text-center mt-8 px-4">You are not autorized to view this page</h1>'; ?>
-<?php require ('partials/foot.php'); ?>
+<?php require ('./views/partials/foot.php'); ?>
