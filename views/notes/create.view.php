@@ -1,4 +1,4 @@
-<?php require ('./views/partials/head.php'); ?>
+<?php require base_path('./views/partials/head.php'); ?>
     <p class="text-center text-2xl font-thin pt-4">Create a note</p>
     <div class="flex gap-4 md:gap-8 flex-col w-full px-6 py-4 md:px-32 md:py-6" style="font-family: Arial; letter-spacing: .1rem;">
         <form method="POST" class="flex flex-col items-center">
@@ -14,4 +14,4 @@
             <button type="submit" class="bg-slate-300 mt-4 w-40 p-1.5 rounded-md cursor-pointer">Create</button>
         </form>
     </div>
-<?php require ('./views/partials/foot.php'); ?>
+    <?php require base_path('./views/partials/foot.php'); ?>
