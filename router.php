@@ -4,7 +4,7 @@ $routes = require "routes.php";
 
 function abort($code = 404) {
     http_response_code($code);
-    require "{$code}.view.php";
+    require "./views/{$code}.view.php";
     die();
 }
 
