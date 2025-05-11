@@ -4,7 +4,6 @@ function dd($value) {
     echo "<pre>";
     var_dump($value);
     echo "</pre>";
-
     die();
 }
 
@@ -13,7 +12,7 @@ function isUrl($value) {
 }
 
 function authorize($condition, $status = Response::FORBIDDEN) {
-    if(!$condition) abort($status);
+    if (!$condition) abort($status);
 }
 
 function base_path($path) {
@@ -21,5 +20,5 @@ function base_path($path) {
 }
 
 function view($path) {
-    require 'views/' . $path;
+    require base_path($path);
 }

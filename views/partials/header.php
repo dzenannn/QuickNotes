@@ -1,4 +1,4 @@
-<?php require('./classes/navbutton.php') ?>
+<?php require base_path("classes/navbutton.php") ?>
 <div class="w-full bg-slate-300 flex justify-between px-2 py-4 items-center border-b-1 border-black-900">
 <div class="flex gap-0 items-center">
         <a href="/">

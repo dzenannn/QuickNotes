@@ -8,6 +8,6 @@
 </head>
 <body class="h-full bg-slate-400">
 <header>
-    <?php require "./views/partials/header.php"; ?>
+    <?php require "../views/partials/header.php"; ?>
 </header>
     <div>
