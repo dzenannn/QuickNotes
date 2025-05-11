@@ -1,4 +1,6 @@
-<?php view('views/partials/head.php'); ?>
+<?php require base_path("classes/navbutton.php") ?>
+
+<?php view('partials/head.php'); ?>
     <p class="text-center text-2xl font-thin pt-4"><?= $heading ?></p>
     <a href="/notes" class="<?= $class ?> <?= "bg-slate-100 hover:bg-slate-200" ?> ml-6">Go Back</a>
     <div class="flex gap-4 md:gap-8 flex-col w-full px-6 py-4 md:px-32 md:py-6" style="font-family: Arial; letter-spacing: .1rem;">
@@ -6,4 +8,4 @@
             <?= $note ? htmlspecialchars($note['body']) : 'DB Not Connected'; ?>
         </div>
     </div>
-<?php view('views/partials/head.php'); ?>
+<?php view('partials/foot.php'); ?>
