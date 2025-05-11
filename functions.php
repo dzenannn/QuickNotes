@@ -16,13 +16,10 @@ function authorize($condition, $status = Response::FORBIDDEN) {
     if(!$condition) abort($status);
 }
 
-# Today I was doing some exercises in PHP (local directory). 13.04.
-# Today I was doing some exercises in PHP (local directory). 14.04.
-
 function base_path($path) {
     return BASE_PATH . $path;
 }
 
 function view($path) {
-    require base_path('views/' . $path); // /views/index.view.php;
+    require 'views/' . $path;
 }
