@@ -14,4 +14,4 @@
             <button type="submit" class="bg-slate-300 mt-4 w-40 p-1.5 rounded-md cursor-pointer">Create</button>
         </form>
     </div>
-<?php view('partials/head.php'); ?>
+<?php view('partials/foot.php'); ?>
